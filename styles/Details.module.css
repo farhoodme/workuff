@@ -1,0 +1,27 @@
+.title {
+  position: relative;
+  width: 100%;
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.title b {
+  overflow-wrap: break-word;
+  resize: none;
+  outline: none;
+}
+
+.done {
+  color: rgb(183, 188, 191);
+  text-decoration: line-through;
+}
+
+.options {
+  position: absolute;
+  top: 10px;
+  left: -55px;
+  width: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

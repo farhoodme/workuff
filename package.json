@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list",
+  "name": "workuff",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "dexie": "^3.0.3",
+    "dexie-react-hooks": "^1.0.2",
+    "dexie-relationships": "^1.2.11",
+    "moment": "^2.29.1",
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-contenteditable": "^3.3.5",
+    "react-dom": "17.0.1",
+    "react-feather": "^2.0.9",
+    "react-hotkeys": "^2.0.0-pre9",
+    "uuid": "^8.3.2"
   }
 }

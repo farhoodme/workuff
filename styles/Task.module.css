@@ -1,0 +1,72 @@
+.project {
+  margin-bottom: 10px;
+}
+
+.bullet {
+  position: absolute;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  color: rgb(75, 81, 85);
+}
+
+.bullet.hasChild {
+  background: rgb(220, 224, 226);
+}
+
+.bullet:hover {
+  background: rgb(183, 188, 191);
+}
+
+.options {
+  position: absolute;
+  top: 1px;
+  left: -52px;
+  width: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.expand {
+  width: 20px;
+  height: 20px;
+  color: rgb(183, 188, 191);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expand:hover {
+  color: rgb(75, 81, 85);
+}
+
+.content {
+  margin-left: 24px;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  position: relative;
+  width: 100%;
+  resize: none;
+  outline: none;
+}
+
+.done {
+  color: rgb(183, 188, 191);
+  text-decoration: line-through;
+}
+
+.addChildButton {
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addChildButton:hover {
+  background: rgb(220, 224, 226);
+}
