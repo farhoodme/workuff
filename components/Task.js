@@ -21,12 +21,12 @@ export default function Task({ task, createTask, deleteTask }) {
 
   const handleChange = (e) => {
     title.current = e.target.value;
-    setTask({ ...currentTask, title: title.current });
   };
 
   const handleKeyUp = (e) => {
     if (title.current) {
       updateTask();
+      setTask({ ...currentTask, title: title.current });
     }
   };
 

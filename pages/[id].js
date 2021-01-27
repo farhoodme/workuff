@@ -59,7 +59,7 @@ const TaskDetails = () => {
   return (
     <div>
       <Head>
-        <title>{currentTask.title} - WorkUff</title>
+        <title>{currentTask ? currentTask.title : "..."} - WorkUff</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
