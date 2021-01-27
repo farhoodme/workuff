@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import styles from "../styles/Details.module.css";
 import TaskList from "../components/TaskList";
 import DropdownMenu from "../components/DropdownMenu";
