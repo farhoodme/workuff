@@ -1,4 +1,4 @@
-## WorkUff [Demo](https://workuff-1nfuaqnsk.vercel.app/)
+## See [Demo](https://workuff-1nfuaqnsk.vercel.app/)
 
 WorkUff is a simple to-do application, just a [WorkFlowy](https://www.workflowy.com/) clone.
 
