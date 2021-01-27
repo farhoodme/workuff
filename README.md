@@ -1,4 +1,4 @@
-Demo project is available here: [WorkUff Demo](https://workuff-1nfuaqnsk.vercel.app/).
+Demo project is available here: [Demo](https://workuff-1nfuaqnsk.vercel.app/).
 
 WorkUff is a simple to-do application, just a [WorkFlowy](https://www.workflowy.com/) clone.
 
